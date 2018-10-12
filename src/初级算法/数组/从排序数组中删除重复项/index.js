@@ -16,3 +16,5 @@ const removeDuplicate = (nums) => {
   }
   return len
 }
+
+module.exports = removeDuplicate

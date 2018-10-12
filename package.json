@@ -1,0 +1,25 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "leetcode",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shunkie/leetcode.git"
+  },
+  "keywords": [
+    "leetcode"
+  ],
+  "author": "shunkie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shunkie/leetcode/issues"
+  },
+  "homepage": "https://github.com/shunkie/leetcode#readme",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
