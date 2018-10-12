@@ -21,5 +21,10 @@
   "homepage": "https://github.com/shunkie/leetcode#readme",
   "devDependencies": {
     "ava": "^0.25.0"
+  },
+  "ava": {
+    "files": [
+      "**/test.js"
+    ]
   }
 }
