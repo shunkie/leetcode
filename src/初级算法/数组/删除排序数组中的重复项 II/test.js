@@ -16,3 +16,11 @@ test('should return 7 when nums is [0, 0, 1, 1, 1, 1, 2, 3, 3]', t => {
   nums.length = 7
   t.deepEqual(nums, [0, 0, 1, 1, 2, 3, 3])
 })
+
+test('should return 2 when nums is [1, 1]', t => {
+  const nums = [1, 1]
+  const ret = removeDuplicates(nums)
+  t.is(ret, 2)
+  nums.length = 2
+  t.deepEqual(nums, [1, 1])
+})
