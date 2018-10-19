@@ -3,7 +3,11 @@
  * @returns {number}
  */
 const singleNumber = nums => {
-  return 0
+  let res = 0
+  for (let i = 0; i < nums.length; i++) {
+    res = res ^ nums[i]
+  }
+  return res
 }
 
 module.exports = singleNumber
