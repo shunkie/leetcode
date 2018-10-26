@@ -4,7 +4,10 @@
  * @returns {number}
  */
 const getSum = (a, b) => {
-  return 0
+  while (a) {
+    [a, b] = [(a & b) << 1, a ^ b]
+  }
+  return b
 }
 
 module.exports = getSum
