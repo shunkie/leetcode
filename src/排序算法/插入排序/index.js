@@ -4,15 +4,12 @@
  */
 const insertionSort = nums => {
   for (let i = 1; i < nums.length; i++) {
-    for (let j = i; j > 0; j--) {
-      if (nums[j] < nums[j - 1]) {
-        temp = nums[j]
-        nums[j] = nums[j - 1]
-        nums[j - 1] = temp
-      } else {
-        break
-      }
+    let x = nums[i]
+    let j = i - 1
+    for (; j >= 0 && nums[j] > x; j--) {
+      nums[j + 1] = nums[j]
     }
+    nums[j + 1] = x
   }
 }
 
