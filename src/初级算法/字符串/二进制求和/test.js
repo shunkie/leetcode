@@ -1,4 +1,4 @@
-const { test } = require('ava')
+const test = require('ava').default
 const addBinary = require('./index')
 
 test('should return "100" when a is "11" and b is "1"', t => {

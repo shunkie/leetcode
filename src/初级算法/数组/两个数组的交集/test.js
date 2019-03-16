@@ -1,4 +1,4 @@
-const { test } = require('ava')
+const test = require('ava').default
 const intersection = require('./index')
 
 test('should return [2] when nums1 is [1, 2, 2, 1] and nums2 is [2, 2]', t => {

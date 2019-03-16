@@ -1,4 +1,4 @@
-const { test } = require('ava')
+const test = require('ava').default
 const selectionSort = require('./index')
 
 test('should return [1, 2, 3] when nums is [3, 2, 1]', t => {

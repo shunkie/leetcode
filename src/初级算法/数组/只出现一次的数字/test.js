@@ -1,4 +1,4 @@
-const { test } = require('ava')
+const test = require('ava').default
 const singleNumber = require('./index')
 
 test('should return 1 when nums is [2, 2, 1]', t => {

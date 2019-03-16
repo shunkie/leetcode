@@ -1,4 +1,4 @@
-const { test } = require('ava')
+const test = require('ava').default
 const pivotIndex = require('./index')
 
 test('should return 3 when nums is [1, 7, 3, 6, 5, 6]', t => {

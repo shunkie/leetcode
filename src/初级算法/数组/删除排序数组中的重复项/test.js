@@ -1,4 +1,4 @@
-const { test } = require('ava')
+const test = require('ava').default
 const removeDuplicate = require('./index')
 
 test('should return 2 when nums is [1, 1, 2]', t => {

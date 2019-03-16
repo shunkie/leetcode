@@ -1,4 +1,4 @@
-const { test } = require('ava')
+const test = require('ava').default
 const dominantIndex = require('./index')
 
 test('should return 1 when nums is [3, 6, 1, 0]', t => {

@@ -1,4 +1,4 @@
-const { test } = require('ava')
+const test = require('ava').default
 const getSum = require('./index')
 
 test('should return 3 when a is 1 and b is 2', t => {

@@ -1,4 +1,4 @@
-const { test } = require('ava')
+const test = require('ava').default
 const removeElement = require('./index')
 
 test('should return 2 when nums is [3, 2, 2, 3] and val is 3', t => {

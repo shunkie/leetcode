@@ -1,4 +1,4 @@
-const { test } = require('ava')
+const test = require('ava').default
 const reverseString = require('./index')
 
 test('should return "olleh" when str is "hello"', t => {

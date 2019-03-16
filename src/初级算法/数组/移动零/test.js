@@ -1,4 +1,4 @@
-const { test } = require('ava')
+const test = require('ava').default
 const moveZeroes = require('./index')
 
 test('should output [1, 3, 12, 0, 0] when nums is [0, 1, 0, 3, 12]', t => {
