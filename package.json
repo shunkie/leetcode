@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/shunkie/leetcode#readme",
   "devDependencies": {
-    "ava": "^1.0.1"
+    "ava": "^1.0.1",
+    "eslint": "^5.15.2"
   },
   "ava": {
     "files": [
